@@ -7,7 +7,7 @@ Find the project requirements here: [Random number generator web app](https://ww
 Built with HTML and PHP
 
 ## Installation
-Requires XAMPP to run PHP.
+Requires XAMPP to run PHP
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
