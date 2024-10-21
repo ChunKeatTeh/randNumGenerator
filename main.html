@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Random Number Generator</title>
+    </head>
+    <body>
+        <form action="output.php" method="POST">
+            <label for="diceToRoll">Number of dice to roll: </label>
+            <input type="range" name="diceToRoll" id="diceToRoll" value="1" min="1"><br>
+            <label for="sideOfDice">Sides of dice: </label>
+            <select name="sideOfDice" id="sideOfDice">
+                <option value="d4">d4</option>
+                <option value="d6">d6</option>
+                <option value="d8">d8</option>
+                <option value="d10">d10</option>
+                <option value="d12">d12</option>
+                <option value="d20">d20</option>
+            </select><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
